@@ -4,13 +4,16 @@ Web application for an online travel guide for Omaha, Nebraska using Django.
 
 
 # Installation
-Download the latest version and unzip. The modules listed below will need to be installed first. It is recommended to use a virtual environment that is in the same location as the djangoproject and omaha_places_app folders. If using Ubuntu/Linux, you can use the command 'bash setup.sh' to quickly faciliate this. Otherwise:
+Download the latest version and unzip. The modules listed below will need to be installed first. It is recommended to use a virtual environment that is in the same location as the djangoproject and omaha_places_app folders. If using a Linux-based distribution, you can use the command 'bash setup.sh' to quickly faciliate this. Otherwise:
 
-- nginx >>> sudo apt install nginx (If using Windows, download and install it from the official site: https://nginx.org/en/download.html)
-- django + gunicorn >>> pip install django gunicorn
-- django-widget-tweaks >>> pip install django-widget-tweaks
-- django-mathfilters >>> pip install django-mathfilters
-- django-jazzmin >>> pip install django-jazzmin
-- load-dotenv >>> pip install load-dotenv
-- Pillow >>> pip install Pillow
-- requests >>> pip install requests
+```sudo apt install nginx
+pip install django gunicorn
+pip install django-widget-tweaks
+pip install django-mathfilters
+pip install django-jazzmin
+pip install load-dotenv
+pip install Pillow
+pip install requests
+```
+
+If using Windows, you can download and install ngnix from the official site: https://nginx.org/en/download.html
